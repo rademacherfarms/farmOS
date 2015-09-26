@@ -1,18 +1,9 @@
 api = 2
-core = 7.x
-
-; -----------------------------------------------------------------------------
-; Drupal core
-; -----------------------------------------------------------------------------
-
+core = 8.x
+; Include the definition for how to build Drupal core directly, including patches:
 includes[] = drupal-org-core.make
-
-; -----------------------------------------------------------------------------
-; farmOS installation profile
-; -----------------------------------------------------------------------------
-
+; Download the farmOS install profile and recursively build all its dependencies:
 projects[farm][type] = profile
 projects[farm][download][type] = git
-projects[farm][download][url] = http://github.com/farmOS/farm.git
-projects[farm][download][branch] = 7.x-1.x
+projects[farm][download][branch] = 8.x-2.x
 

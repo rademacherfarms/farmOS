@@ -1,13 +1,9 @@
+; A separate drupal-org-core.make file makes it so we can apply core patches
+; if we need to.
+
 api = 2
-core = 7.x
-
-; -----------------------------------------------------------------------------
-; Drupal core
-; -----------------------------------------------------------------------------
-
+core = 8.x
 projects[drupal][type] = core
-projects[drupal][version] = 7.39
-
-; Patch core to use vocabulary machine names in permissions.
-projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions_0.patch
+projects[drupal][download][type] = git
+projects[drupal][download][branch] = 8.0.x
 

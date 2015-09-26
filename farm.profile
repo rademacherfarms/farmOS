@@ -1,7 +1,6 @@
 <?php
-
 /**
  * @file
- * farmOS installation profile.
+ * Enables modules and site configuration for a farm site installation.
  */
-
+ 

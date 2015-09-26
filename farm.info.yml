@@ -1,0 +1,34 @@
+name: farmOS
+distribution_name: farmOS
+type: profile
+description: 'Farm management system.'
+version: VERSION
+core: 8.x
+dependencies:
+  - breakpoint
+  - ckeditor
+  - config
+  - contextual
+  - datetime
+  - dynamic_page_cache
+  - editor
+  - entity_reference
+  - file
+  - image
+  - menu_ui
+  - menu_link_content
+  - options
+  - page_cache
+  - path
+  - quickedit
+  - responsive_image
+  - rest
+  - serialization
+  - shortcut
+  - taxonomy
+  - toolbar
+  - views
+  - tour
+themes:
+  - seven
+

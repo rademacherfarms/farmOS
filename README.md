@@ -4,23 +4,8 @@ farmOS
 A Drupal installation profile for farms. http://drupal.org/project/farm
 
 This project aims to provide a Drupal distribution for use in agriculture. It
-comes pre-packaged with a set of farm-related modules, including:
-
-* [Farm Admin](http://drupal.org/project/farm_admin)
-* [Farm Area](http://drupal.org/project/farm_area)
-* [Farm Asset](http://drupal.org/project/farm_asset)
-* [Farm Crop](http://drupal.org/project/farm_crop)
-* [Farm Equipment](http://drupal.org/project/farm_equipment)
-* [Farm Fields](http://drupal.org/project/farm_fields)
-* [Farm Livestock](http://drupal.org/project/farm_livestock)
-* [Farm Log](http://drupal.org/project/farm_log)
-* [Farm Manager](http://drupal.org/project/farm_manager)
-* [Farm Map](http://drupal.org/project/farm_map)
-* [Farm MapKnitter](http://drupal.org/project/farm_mapknitter)
-* [Farm Maple](http://drupal.org/project/farm_maple)
-* [Farm Mushroom](http://drupal.org/project/farm_mushroom)
-* [Farm Soil](http://drupal.org/project/farm_soil)
-* [Farm Taxonomy](http://drupal.org/project/farm_taxonomy)
+comes pre-packaged with a set of farm-related modules. For more information,
+visit http://farmos.org
 
 Drupal.org is the location of the canonical repositories and mainline branches.
 Github.org is also used as a mirror, and for some of the more experimental
